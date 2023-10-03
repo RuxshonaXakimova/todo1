@@ -1,0 +1,102 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.blur_bg{
+    filter: blur(8px);
+}
+
+.todo_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    padding: 8px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+form input{
+    width: 250px;
+    height: 25px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.box{
+    border: 1px solid blue;
+    width: 250px;
+    height: 80px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(229, 227, 227);
+}
+
+.box_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box button{
+    background-color:  rgb(229, 227, 227);
+    border: none;
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.modal_main{
+    background-color: burlywood;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    translate: -50%;
+}
+
+.modal_main input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.modal_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.modal_btns button{
+    padding: 10px 30px;
+    background-color: rgb(247, 220, 186);
+    border: none;
+    border-radius: 10px;
+}
+
+.done{
+    text-decoration: line-through red;
+}
+
+.none{
+    display: none;
+}
+
